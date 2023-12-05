@@ -22,7 +22,7 @@
 
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
-            <a class="site-list__link" href="#" aria-current="page">Главная</a>
+            <a class="site-list__link" href="index.html" aria-current="page">Главная</a>
           </li>
 
           <li class="site-list__item">
@@ -30,7 +30,7 @@
           </li>
 
           <li class="site-list__item">
-            <a class="site-list__link site-list__link--current" href="form.html">Подбор программы</a>
+            <a class="site-list__link site-list__link--current" href="#">Подбор программы</a>
           </li>
         </ul>
 
@@ -54,18 +54,18 @@
               <h3 class="visually-hidden">Личные данные кота</h3>
 
               <ul class="selection-field__list">
-                <li class="selection-field__item">
-                  <label class="selection-field__label selection-label" for="cat-name">ИМЯ:*</label>
+                <li class="selection-field__item selection-label">
+                  <label class="selection-field__lable" for="cat-name">ИМЯ:*</label>
                   <input class="selection-label__input" id="cat-name" name="cat-name" type="text" placeholder="Барсик">
                 </li>
 
-                <li class="selection-field__item">
-                  <label class="selection-field__label selection-label" for="cat-weight">Вес (кг):*</label>
+                <li class="selection-field__item selection-label">
+                  <label class="selection-field__label" for="cat-weight">Вес (кг):*</label>
                   <input class="selection-label__input" id="cat-weight" name="cat-weight" type="text" placeholder="7">
                 </li>
 
-                <li class="selection-field__item">
-                  <label class="selection-field__label selection-label" for="cat-age">Возраст (лет): </label>
+                <li class="selection-field__item selection-label">
+                  <label class="selection-field__label" for="cat-age">Возраст (лет): </label>
                   <input class="selection-label__input" id="cat-age" name="cat-age" type="text" placeholder="7">
                 </li>
               </ul>
@@ -76,21 +76,21 @@
               <h3 class="visually-hidden">Выбор программы</h3>
 
               <ul class="selection-field__list">
-                <li class="selection-field__item">
+                <li class="selection-field__item selection-label">
                   <input class="selection-label__input radio-input radio-input--checked" id="program-slim"
                     name="type-of-program" value="weight-loss" type="radio" checked>
                   <span class="selection-field__control-mark"></span>
                   <label class="selection-field__label selection-label" for="program-slim">похудение</label>
                 </li>
 
-                <li class="selection-field__item">
+                <li class="selection-field__item selection-label">
                   <input class="selection-label__input radio-input" id="program-pro" name="type-of-program"
                     value="weight-gain" type="radio">
                   <span class="selection-field__control-mark"></span>
                   <label class="selection-field__label selection-label" for="program-pro">Набор массы</label>
                 </li>
 
-                <li class="selection-field__item">
+                <li class="selection-field__item selection-label">
                   <input class="selection-label__input radio-input" id="program-nothing" name="type-of-program"
                     value="don't-know" type="radio">
                   <span class="selection-field__control-mark"></span>
@@ -104,14 +104,14 @@
               <h3 class="selection-field__title title">Контактные данные (владельца кота)</h3>
 
               <ul class="selection-field__list">
-                <li class="selection-field__item">
-                  <label class="selection-field__label selection-label" for="email">E-mail:*</label>
+                <li class="selection-field__item selection-label">
+                  <label class="selection-field__label" for="email">E-mail:*</label>
                   <input class="selection-label__input" id="email" name="email" type="text"
                     placeholder="kuklachev@gmail.com">
                 </li>
 
-                <li class="selection-field__item">
-                  <label class="selection-field__label selection-label" for="phone">Телефон:*</label>
+                <li class="selection-field__item selection-label">
+                  <label class="selection-field__label" for="phone">Телефон:*</label>
                   <input class="selection-label__input" id="phone" name="phone" type="text"
                     placeholder="8 (960) 900-60-90">
                 </li>
@@ -119,15 +119,19 @@
             </fieldset>
 
             <fieldset class="selection__field selection-field">
+
               <h3 class="selection-field__title title">Комментарий</h3>
+
               <ul class="selection-field__list">
-                <li class="selection-field__item">
-                  <label class="selection-field__label selection-label" for="comment">
+
+                <li class="selection-field__item selection-label">
+                  <label class="selection-field__label" for="comment">
                     <span class="visually-hidden">Комментарий</span>
                   </label>
 
                   <input class="selection-label__input" id="comment" name="comment" type="text" placeholder="Расскажите обо всех повадках кота">
                 </li>
+
               </ul>
             </fieldset>
 
@@ -136,28 +140,28 @@
               <h3 class="selection-field__title title">Дополнительно</h3>
 
               <ul class="selection-field__list">
-                <li class="selection-field__item">
+                <li class="selection-field__item selection-label">
                   <input class="selection-label__input checkbox checkbox--checked" id="sweetener" name="additionally"
                     value="sweetener" type="checkbox" checked>
                   <span class="selection-field__control-mark"></span>
                   <label class="selection-field__label selection-label" for="sweetener">сахарозаменитель</label>
                 </li>
 
-                <li class="selection-field__item">
+                <li class="selection-field__item selection-label">
                   <input class="selection-label__input checkbox" id="drinking-water" name="additionally"
                     value="drinking-water" type="checkbox">
                   <span class="selection-field__control-mark"></span>
                   <label class="selection-field__label selection-label" for="drinking-water">питьевая вода</label>
                 </li>
 
-                <li class="selection-field__item">
+                <li class="selection-field__item selection-label">
                   <input class="selection-label__input checkbox" id="milk" name="additionally" value="milk"
                     type="checkbox">
                   <span class="selection-field__control-mark"></span>
                   <label class="selection-field__label selection-label" for="milk">молоко</label>
                 </li>
 
-                <li class="selection-field__item">
+                <li class="selection-field__item selection-label">
                   <input class="selection-label__input checkbox" id="vitamins" name="additionally" value="vitamins"
                     type="checkbox">
                   <span class="selection-field__control-mark"></span>
@@ -196,27 +200,34 @@
         <a class="footer__link logo-link" href="#">
           <img class="footer__logo" src="images/footerlogo.svg" width="128" height="24" alt="Cat Energy.">
         </a>
-        <ul class="footer__list social-list">
+
+        <ul class="footer__list social">
           <li class="social__item">
             <a class="social__link social__link--vk" href="#">
               <img src="images/vkontakte.svg" width="28" height="22" alt="Вконтакте.">
             </a>
           </li>
+
           <li class="social__item">
             <a class="social__link social__link--youtube" href="#">
               <img src="images/youtube.svg" width="28" height="22" alt="YouTube.">
             </a>
           </li>
+
           <li class="social__item">
             <a class="social__link social__link--telegram" href="#">
             <img src="images/telegram.svg" width="28" height="22" alt="Telegram.">
             </a>
           </li>
         </ul>
-        <a class="copyright__link" href="https://htmlacademy.ru/">
-          <p class="copyright__text">HTML Academy</p>
-          <img class="copyright__logo" src="images/logohtmlacademy.svg" width="27" height="34" alt="HTML Academy.">
-        </a>
+
+        <div class="copyright">
+          <a class="copyright__link" href="https://htmlacademy.ru/">
+            <p class="copyright__text">HTML Academy</p>
+            <img class="copyright__logo" src="images/logohtmlacademy.svg" width="27" height="34" alt="HTML Academy.">
+          </a>
+        </div>
+
       </div>
     </footer>
 
