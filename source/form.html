@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicons/180.png" type="image/png+xml"> <!-- 180x180 old iphone -->
+    <link rel="manifest" href="manifest.webmanifest">
   </head>
+
   <body class="page__body">
     <header class="main-header">
 
       <a class="main-header__logo" href="index.html">
-        <img class="main-header__logo-image" src="images/logomobile.svg" width="33" height="38" alt="Логотип «cat energy».">
+        <picture>
+          <source type="image/svg+xml" width="202" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-header/logo-large.svg">
+          <source type="image/svg+xml" width="174" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-header/logo-medium.svg">
+          <img class="main-header__logo-image" src="images/logo-header/logo-small.svg" width="33" height="38" alt="Логотип «cat energy».">
+        </picture>
       </a>
 
       <nav class="main-nav">
@@ -222,7 +231,7 @@
         </ul>
 
         <div class="copyright">
-          <a class="copyright__link" href="https://htmlacademy.ru/">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <p class="copyright__text">HTML Academy</p>
             <img class="copyright__logo" src="images/logohtmlacademy.svg" width="27" height="34" alt="HTML Academy.">
           </a>

@@ -2,16 +2,25 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="UTF-8">
-    <title>Название проекта</title>
+    <title>Cat energy</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
     <script src="scripts/index.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicons/180.png" type="image/png+xml"> <!-- 180x180 old iphone -->
+    <link rel="manifest" href="manifest.webmanifest">
   </head>
+
   <body class="page__body">
     <header class="main-header">
 
       <a class="main-header__logo" href="index.html">
-        <img class="main-header__logo-image" src="images/logomobile.svg" width="33" height="38" alt="Логотип «cat energy».">
+        <picture>
+          <source type="image/svg+xml" width="202" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-header/logo-large.svg">
+          <source type="image/svg+xml" width="174" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-header/logo-medium.svg">
+          <img class="main-header__logo-image" src="images/logo-header/logo-small.svg" width="33" height="38" alt="Логотип «cat energy».">
+        </picture>
       </a>
 
       <nav class="main-nav">
@@ -44,7 +53,11 @@
       <section class="product-card">
         <ul class="product-card__list">
           <li class="product-card__item">
-            <img class="product-card__image" src="#" width="140" height="107" alt="Упаковка корма 500 грамм со вкусом курицы."> <!--Будет заменяться через css-->
+            <picture>
+              <source width="161" height="172" type="image/png" media="(min-width: 1440px)" srcset="images/chicken500-desktop@1x.png 1x, images/chicken500-desktop@2x.png 2x">
+              <source width="161" height="172" type="image/png" media="(min-width: 768px)" srcset="images/chicken500-tablet@1x.png 1x, images/chicken500-tablet@2x.png 2x">
+              <img class="product-card__image" src="images/chicken500-mobile@1x.png" srcset="images/chicken500-mobile@2x.png 2x" width="68" height="86" alt="Упаковка корма 500 грамм со вкусом курицы.">
+            </picture>
             <h3 class="product-card__title">Cat energy pro 500 г</h3>
             <dl class="product-card__list">
               <dt class="product-card__term">Масса</dt>
@@ -58,7 +71,11 @@
           </li>
 
           <li class="product-card__item">
-            <img class="product-card__image" src="#" width="140" height="107" alt="Упаковка корма 1000 грамм со вкусом курицы."> <!--Будет заменяться через css-->
+            <picture>
+              <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="images/chicken1000-desktop@1x.png 1x, images/chicken1000-desktop@2x.png 2x">
+              <source width="168" height="206" type="image/png" media="(min-width: 768px)" srcset="images/chicken1000-tablet@1x.png 1x, images/chicken1000-tablet@2x.png 2x">
+              <img class="product-card__image" src="images/chicken1000-mobile@1x.png" srcset="images/chicken1000-mobile@2x.png 2x" width="84" height="100" alt="Упаковка корма 1000 грамм со вкусом курицы.">
+            </picture>
             <h3 class="product-card__title">Cat energy pro 1000 г</h3>
             <dl class="product-card__list">
               <dt class="product-card__term">Масса</dt>
@@ -72,7 +89,11 @@
           </li>
 
           <li class="product-card__item">
-            <img class="product-card__image" src="#" width="140" height="107" alt="Упаковка корма 500 грамм со вкусом рыбы."> <!--Будет заменяться через css-->
+            <picture>
+              <source width="163" height="174" type="image/png" media="(min-width: 1440px)" srcset="images/fish500-desktop@1x.png 1x, images/fish500-desktop@2x.png 2x">
+              <source width="163" height="164" type="image/png" media="(min-width: 768px)" srcset="images/fish500-tablet@1x.png 1x, images/fish500-tablet@2x.png 2x">
+              <img class="product-card__image" src="images/fish500-mobile@1x.png" srcset="images/fish500-mobile@2x.png 2x" width="68" height="78" alt="Упаковка корма 500 грамм со вкусом рыбы."> <!--Будет заменяться через css-->
+            </picture>
             <h3 class="product-card__title">Cat energy pro 500 г</h3>
             <dl class="product-card__list">
               <dt class="product-card__term">Масса</dt>
@@ -86,7 +107,11 @@
           </li>
 
           <li class="product-card__item">
-            <img class="product-card__image" src="#" width="140" height="107" alt="Упаковка корма 1000 грамм со вкусом рыбы."> <!--Будет заменяться через css-->
+            <picture>
+              <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="images/fish1000-desktop@1x.png 1x, images/fish1000-desktop@2x.png 2x">
+              <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="images/fish1000-tablet@1x.png 1x, images/fish1000-tablet@2x.png 2x">
+              <img class="product-card__image" src="images/fish1000-mobile@1x.png" srcset="images/fish1000-mobile@2x.png 2x" width="84" height="100" alt="Упаковка корма 1000 грамм со вкусом рыбы."> <!--Будет заменяться через css-->
+            </picture>
             <h3 class="product-card__title">Cat energy pro 1000 г</h3>
             <dl class="product-card__list">
               <dt class="product-card__term">Масса</dt>
@@ -100,7 +125,11 @@
           </li>
 
           <li class="product-card__item">
-            <img class="product-card__image" src="#" width="140" height="107" alt="Упаковка корма 500 грамм со вкусом гречки."> <!--Будет заменяться через css-->
+            <picture>
+              <source width="161" height="171" type="image/png" media="(min-width: 1440px)" srcset="images/buckwheat500-desktop@1x.png 1x, images/buckwheat500-desktop@2x.png 2x">
+              <source width="161" height="171" type="image/png" media="(min-width: 768px)" srcset="images/buckwheat500-tablet@1x.png 1x, images/buckwheat500-tablet@2x.png 2x">
+              <img class="product-card__image" src="images/buckwheat500-mobile@1x.png" srcset="images/buckwheat500-mobile@2x.png 2x" width="68" height="78" alt="Упаковка корма 500 грамм со вкусом гречки."> <!--Будет заменяться через css-->
+            </picture>
             <h3 class="product-card__title">Cat energy pro 500 г</h3>
             <dl class="product-card__list">
               <dt class="product-card__term">Масса</dt>
@@ -114,7 +143,11 @@
           </li>
 
           <li class="product-card__item">
-            <img class="product-card__image" src="#" width="140" height="107" alt="Упаковка корма 500 грамм со вкусом гречки."> <!--Будет заменяться через css-->
+            <picture>
+              <source width="172" height="196" type="image/png" media="(min-width: 1440px)" srcset="images/buckwheat1000-desktop@1x.png 1x, images/buckwheat1000-desktop@2x.png 2x">
+              <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="images/buckwheat1000-tablet@1x.png 1x, images/buckwheat1000-tablet@2x.png 2x">
+              <img class="product-card__image" src="images/buckwheat1000-mobile@1x.png" srcset="images/buckwheat1000-mobile@2x.png 2x" width="84" height="100" alt="Упаковка корма 500 грамм со вкусом гречки."> <!--Будет заменяться через css-->
+            </picture>
             <h3 class="product-card__title">Cat energy pro 500 г</h3>
             <dl class="product-card__list">
               <dt class="product-card__term">Масса</dt>
@@ -128,7 +161,11 @@
           </li>
 
           <li class="product-card__item">
-            <img class="product-card__image" src="#" width="140" height="107" alt="Упаковка корма 500 грамм со вкусом риса."> <!--Будет заменяться через css-->
+            <picture>
+              <source width="163" height="174" type="image/png" media="(min-width: 1440px)" srcset="images/rice500-desktop@1x.png 1x, images/rice500-desktop@2x.png 2x">
+              <source width="163" height="174" type="image/png" media="(min-width: 768px)" srcset="images/rice500-tablet@1x.png 1x, images/rice500-tablet@2x.png 2x">
+              <img class="product-card__image" src="images/rice500-mobile@1x.png" srcset="images/rice500-mobile@2x.png 2x" width="72" height="84" alt="Упаковка корма 500 грамм со вкусом риса."> <!--Будет заменяться через css-->
+            </picture>
             <h3 class="product-card__title">Cat energy pro 500 г</h3>
             <dl class="product-card__list">
               <dt class="product-card__term">Масса</dt>
@@ -236,7 +273,7 @@
         </ul>
 
         <div class="copyright">
-          <a class="copyright__link" href="https://htmlacademy.ru/">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
             <p class="copyright__text">HTML Academy</p>
             <img class="copyright__logo" src="images/logohtmlacademy.svg" width="27" height="34" alt="HTML Academy.">
           </a>
