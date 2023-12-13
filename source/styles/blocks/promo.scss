@@ -1,0 +1,25 @@
+.promo {
+ background-color: #68B738D9;
+}
+
+.promo__title {
+  font-family: $oswald-font;
+  color: #fff;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+}
+
+.promo__description {
+  font-family: $oswald-font;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.promo__button {}

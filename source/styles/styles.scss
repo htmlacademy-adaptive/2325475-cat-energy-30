@@ -3,10 +3,16 @@
 @import "./global/mixins.scss";
 @import "./global/fonts.scss";
 @import "./global/global.scss";
-@import "./global/common.scss";
 @import "./global/visually-hidden.scss";
 
 /* BLOCKS */
 @import "./blocks/header.scss";
-@import "./blocks/nav.scss";
+@import "./blocks/wrapper.scss";
+@import "./blocks/site-list.scss"; //меню
+@import "./blocks/button.scss"; //Кнопки
+@import "./blocks/promo.scss"; //Текст перед примером продукта
+@import "./blocks/programs.scss"; //Программы питания
+@import "./blocks/features.scss"; //Как это работает
+@import "./blocks/example.scss"; //Живой пример
+@import "./blocks/сontacts.scss"; //Приглашение к сотрудничеству
 @import "./blocks/footer.scss";

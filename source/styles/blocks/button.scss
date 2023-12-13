@@ -1,0 +1,20 @@
+.button {
+  background-color: #68B738;
+  width: 280px;
+  height: 40px;
+}
+
+.button--primary {
+  font-family: $oswald-font;
+  color: #FFF;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.button--secondary {
+  background: #F2F2F2;
+}
