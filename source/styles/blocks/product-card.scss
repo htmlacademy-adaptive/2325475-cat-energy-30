@@ -1,0 +1,25 @@
+.product-card__caption {
+  font-family: $oswald-font;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 36px;
+}
+
+/*карточки*/
+.product-card__item {
+  list-style-type: none;
+}
+
+.product-card__title {
+  font-family: $oswald-font;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.product-card__term, .product-card__description {
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+}

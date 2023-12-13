@@ -1,0 +1,51 @@
+.selection__title {
+  font-family: $oswald-font;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 36px;
+}
+
+.selection__description {
+  font-family: $oswald-font;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+/*имя, вес, возраст*/
+
+.selection-field__item {
+  list-style-type: none;
+}
+
+.selection-field__label {
+  font-family: $oswald-font;
+  color: #444;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.selection-label__input {
+  font-family: $oswald-font;
+  color: #444;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.selection-field__title {
+  font-family: $oswald-font;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 26px;
+}
+
+.selection__required {
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+}

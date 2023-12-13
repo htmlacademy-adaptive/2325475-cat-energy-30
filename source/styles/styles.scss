@@ -10,9 +10,24 @@
 @import "./blocks/wrapper.scss";
 @import "./blocks/site-list.scss"; //меню
 @import "./blocks/button.scss"; //Кнопки
+
+/*index*/
 @import "./blocks/promo.scss"; //Текст перед примером продукта
 @import "./blocks/programs.scss"; //Программы питания
 @import "./blocks/features.scss"; //Как это работает
 @import "./blocks/example.scss"; //Живой пример
+
+/*form*/
+@import "./blocks/selection.scss"; //Форма подбора корма для кота
+
+/*catalog*/
+@import "./blocks/product-card.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/extra.scss";
+@import "./blocks/extra-product.scss";
+
+/*низ сайта*/
 @import "./blocks/сontacts.scss"; //Приглашение к сотрудничеству
+@import "./blocks/copyright.scss"; //копирайт академии
 @import "./blocks/footer.scss";
+
