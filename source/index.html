@@ -17,8 +17,8 @@
 
       <a class="main-header__logo" href="index.html">
         <picture>
-          <source type="image/svg+xml" width="202" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-header/logo-large.svg">
-          <source type="image/svg+xml" width="174" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-header/logo-medium.svg">
+          <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-header/logo-large.svg" width="202" height="59">
+          <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-header/logo-medium.svg" width="174" height="50">
           <img class="main-header__logo-image" src="images/logo-header/logo-small.svg" width="33" height="38" alt="Логотип «cat energy».">
         </picture>
       </a>
@@ -52,11 +52,11 @@
 
       <section class="promo">
         <h2 class="promo__title">Функциональное питание для котов</h2>
-        <p class="promo__text">Занялся собой? Займись котом!</p>
+        <p class="promo__description">Занялся собой? Займись котом!</p>
         <a class="promo__button button button--primary" href="form.html">Подобрать программу</a>
         <picture>
-          <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/can-desktop@1x.png 1x, images/can-desktop@2x.png 2x">
-          <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/can-tablet@1x.png 1x, images/can-mobile@2x.png 2x">
+          <source type="image/png" media="(min-width: 1440px)" srcset="images/can-desktop@1x.png 1x, images/can-desktop@2x.png 2x" width="552" height="499" >
+          <source type="image/png" media="(min-width: 768px)" srcset="images/can-tablet@1x.png 1x, images/can-mobile@2x.png 2x" width="709" height="609" >
           <img src="images/can-mobile@1x.png" srcset="images/can-mobile@2x.png 2x" width="280" height="270" alt="Пример продукта">
         </picture>
       </section>
@@ -108,30 +108,32 @@
 
         <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
 
-        <ul class="example__list">
-          <li class="example__card">
-            <span class="example__number">5 КГ</span>
-            <p class="example__description">снижение веса</p>
+        <ul class="example__list example-date">
+          <li class="example-date__card">
+            <span class="example-date__number">5 КГ</span>
+            <p class="example-date__description">снижение веса</p>
           </li>
 
-          <li class="example__card">
-            <span class="example__number">60 ДНЕЙ</span>
-            <p class="example__description">затрачено времени</p>
+          <li class="example-date__card">
+            <span class="example-date__number">60 ДНЕЙ</span>
+            <p class="example-date__description">затрачено времени</p>
           </li>
         </ul>
 
-        <p class="example__price">Затраты на питание:<span class="example__price-amount">15 000 руб.</span></p>
+        <p class="example__price">Затраты на питание:
+          <span class="example__price-amount">15 000 руб.</span>
+        </p>
 
         <div class="example__slider example-slider">
           <div class="example-slider__images">
             <picture>
               <!--
-              <source type="image/png" widht="560" height="512" media="(min-width: 768px)" srcset="images/fat-cat@1x.png 1x, images/fat-cat@2x.png 2x">
+              <source type="image/png" media="(min-width: 768px)" srcset="images/fat-cat@1x.png 1x, images/fat-cat@2x.png 2x" width="560" height="512" >
               <img class="example-slider__image example-slider__image--after" src="images/fat-cat-mobile@1x.png" srcset="images/fat-cat-mobile@2x.png 2x" width="280" height="256" alt="Толстый кот после похудения.">
-              <source type="image/png" widht="560" height="512" media="(min-width: 768px)" srcset="images/skinny-cat@1x.png 1x, images/skinny-cat@2x.png 2x">
+              <source type="image/png" media="(min-width: 768px)" srcset="images/skinny-cat@1x.png 1x, images/skinny-cat@2x.png 2x" widht="560" height="512" >
               <img class="example-slider__image example-slider__image--after" src="images/skinny-cat-mobile@1x.png" srcset="images/skinny-cat-mobile@2x.png 2x" width="280" height="256" alt="Нормальный кот после похудения.">
               -->
-              <source type="image/png" widht="560" height="512" media="(min-width: 768px)" srcset="images/slider-cat@1x.png 1x, images/slider-cat@2x.png 2x">
+              <source type="image/png" width="560" height="512" media="(min-width: 768px)" srcset="images/slider-cat@1x.png 1x, images/slider-cat@2x.png 2x">
               <img class="example-slider__image example-slider__image--after" src="images/slider-cat-mobile@1x.png" srcset="images/slider-cat-mobile@2x.png" width="280" height="256" alt="Сравнение кота до и после начала питания.">
             </picture>
           </div>
@@ -143,7 +145,7 @@
       </section>
 
       <section class="contacts">
-        <div class="contacts__wrapper wrapper">
+        <div class="contacts__wrapper wrapper wrapper--light">
           <h2 class="visually-hidden">Адрес компании</h2>
           <p class="contacts__title">приглашаем к сотрудничеству дилеров!</p>
           <address class="contacts__address">ул. Большая<br> Конюшенная, д. 19/8<br> Санкт-Петербург</address>

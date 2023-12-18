@@ -1,1 +1,15 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее*/
+body {
+  font-family: $lato-font;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}

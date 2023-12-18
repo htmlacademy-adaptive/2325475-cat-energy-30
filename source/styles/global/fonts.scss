@@ -1,1 +1,16 @@
 /* здесь подключите шрифты*/
+$lato-font: "Lato", sans-serif;
+$oswald-font: "Oswald", sans-serif;
+$black: #000000;
+$sp-black: #111111;
+$green: #68b738;
+$white: #ffffff;
+$light-gray: #f2f2f2;
+$gray: #d9d9d9;
+$sp-gray: #666666;
+$sp-gray2: #eaeaea;
+$dark-gray: #444444;
+$sp-dark-gray: #222222;
+
+@include font-face("Lato", 400, normal, url("../../fonts/lato/Lato-Regular.woff2") format("woff2"));
+@include font-face("Oswald", 400, normal, url("../../fonts/oswald/oswaldregular.woff") format("woff2"));

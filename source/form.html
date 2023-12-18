@@ -17,8 +17,8 @@
 
       <a class="main-header__logo" href="index.html">
         <picture>
-          <source type="image/svg+xml" width="202" height="59" type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-header/logo-large.svg">
-          <source type="image/svg+xml" width="174" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-header/logo-medium.svg">
+          <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-header/logo-large.svg" width="202" height="59">
+          <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-header/logo-medium.svg" width="174" height="50">
           <img class="main-header__logo-image" src="images/logo-header/logo-small.svg" width="33" height="38" alt="Логотип «cat energy».">
         </picture>
       </a>
@@ -51,9 +51,9 @@
       <h1 class="visually-hidden">Форма подбора корма для кота</h1>
 
       <section class="selection">
-        <div class="selection__wrapper wrapper">
+        <div class="selection__cover cover">
 
-          <h2 class="selection__title">Подбор Программы</h2>
+          <h2 class="selection__title">Подбор программы</h2>
 
           <p class="selection__description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
 
@@ -64,7 +64,7 @@
 
               <ul class="selection-field__list">
                 <li class="selection-field__item selection-label">
-                  <label class="selection-field__lable" for="cat-name">ИМЯ:*</label>
+                  <label class="selection-field__label" for="cat-name">ИМЯ:*</label>
                   <input class="selection-label__input" id="cat-name" name="cat-name" type="text" placeholder="Барсик">
                 </li>
 
@@ -182,7 +182,7 @@
 
             <button class="selection__button button button--primary" type="submit">отправить заявку</button>
 
-            <span class="selection__required">* — Обязательные поля</span>
+            <p class="selection__required">* — Обязательные поля</p>
 
           </form>
         </div>

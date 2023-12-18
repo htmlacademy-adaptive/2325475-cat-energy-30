@@ -1,7 +1,33 @@
 /* GLOBAL */
 @import "./global/variables.scss";
-@import "./global/global.scss";
+@import "./global/mixins.scss";
 @import "./global/fonts.scss";
+@import "./global/global.scss";
+@import "./global/visually-hidden.scss";
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "./blocks/wrapper.scss";
+@import "./blocks/site-list.scss"; //меню
+@import "./blocks/button.scss"; //Кнопки
+
+/*index*/
+@import "./blocks/promo.scss"; //Текст перед примером продукта
+@import "./blocks/programs.scss"; //Программы питания
+@import "./blocks/features.scss"; //Как это работает
+@import "./blocks/example.scss"; //Живой пример
+@import "./blocks/example-date.scss"; //Живой пример
+
+/*form*/
+@import "./blocks/selection.scss"; //Форма подбора корма для кота
+
+/*catalog*/
+@import "./blocks/product-card.scss"; //Карточки продукты
+@import "./blocks/catalog.scss"; //показать еще 100500 товаров
+@import "./blocks/extra.scss"; //Доп. товары
+@import "./blocks/extra-product.scss"; //карточки доп товаров
+
+/*низ сайта*/
+@import "./blocks/сontacts.scss"; //Приглашение к сотрудничеству
+@import "./blocks/copyright.scss"; //копирайт академии
+@import "./blocks/footer.scss";
+

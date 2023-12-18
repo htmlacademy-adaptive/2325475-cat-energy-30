@@ -1,0 +1,29 @@
+.example {
+  background-color: $sp-gray2;
+}
+
+.example__title {
+  font-family: $oswald-font;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.example__description {
+  color: $dark-gray;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+}
+
+.example__price-amount,
+.example__price {
+  font-family: $oswald-font;
+  color: $dark-gray;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}

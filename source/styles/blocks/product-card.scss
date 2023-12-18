@@ -1,0 +1,23 @@
+.product-card__caption {
+  font-family: $oswald-font;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+/*карточки*/
+.product-card__title {
+  font-family: $oswald-font;
+  color: $sp-dark-gray;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.product-card__term,
+.product-card__description {
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+}
