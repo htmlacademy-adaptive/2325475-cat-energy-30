@@ -6,7 +6,7 @@
 
 .button--primary {
   font-family: $oswald-font;
-  color: #ffffff;
+  color: $white;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -16,8 +16,8 @@
 
 .button--secondary {
   font-family: $oswald-font;
-  color: #444444;
-  background: #f2f2f2;
+  color: $dark-gray;
+  background-color: $light-gray;
   font-size: 16px;
   line-height: 20px;
   text-align: center;

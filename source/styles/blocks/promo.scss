@@ -1,10 +1,10 @@
 .promo {
-  background-color: #68b738;
+  background-color: $green;
 }
 
 .promo__title {
   font-family: $oswald-font;
-  color: #ffffff;
+  color: $white;
   font-size: 36px;
   line-height: 36px;
   text-align: center;
@@ -14,7 +14,7 @@
 
 .promo__description {
   font-family: $oswald-font;
-  color: #ffffff;
+  color: $white;
   font-size: 14px;
   line-height: 14px;
   font-weight: 400;
