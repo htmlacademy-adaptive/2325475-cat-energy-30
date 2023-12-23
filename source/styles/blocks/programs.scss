@@ -28,20 +28,38 @@
   line-height: 16px;
   font-weight: 400;
   text-align: center;
+  position: relative;
+  /*Не видно*/
+  &::after {
+    content: '';
+    position: absolute;
+    mask-image: url("../../images/icons/stack.svg#icon_arrow");
+    mask-repeat: no-repeat;
+    width: 32px;
+    height: 10px;
+    left: 50%;
+  }
 }
 
-.programs__cat-slim {
-  background-image: url("../../images/icons/stack.svg#cat-slim");
-  background-repeat: no-repeat;
-  width: 50px;
-  height: 53px;
-  border: 0px;
-}
-
-.programs__cat-pro {
-  background-image: url("../../images/icons/stack.svg#cat-pro");
-  background-repeat: no-repeat;
+.programs__cat {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 67px;
-  height: 50px;
-  border: 0px;
+  height: 53px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $green;
+  }
 }
