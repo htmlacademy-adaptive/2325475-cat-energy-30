@@ -13,11 +13,11 @@
   text-transform: uppercase;
 }
 
-/*имя, вес, возраст*/
-
-.selection-field__item {
-  list-style-type: none;
+.selection__button {
+  border: 0;
 }
+
+/*имя, вес, возраст*/
 
 .selection-field__label {
   font-family: $oswald-font;

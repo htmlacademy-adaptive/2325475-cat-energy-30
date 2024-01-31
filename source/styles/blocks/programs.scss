@@ -28,4 +28,43 @@
   line-height: 16px;
   font-weight: 400;
   text-align: center;
+  align-items: center;
+  position: relative;
+  justify-content: flex-start;
+
+  &::after {
+    content: "";
+    background-image: url("../../images/icons/icon_arrow.svg");
+    width: 32px;
+    height: 10px;
+    display: block;
+    background-repeat: no-repeat;
+  }
+
+  &:active {
+    opacity: 30%;
+  }
+}
+
+.programs__cat {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 67px;
+  height: 53px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $green;
+  }
 }

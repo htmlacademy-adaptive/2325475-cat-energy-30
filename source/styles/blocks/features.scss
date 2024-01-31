@@ -10,4 +10,66 @@
   color: $dark-gray;
   font-size: 14px;
   line-height: 18px;
+  width: 200px;
+  position: absolute;
+}
+
+.features__item {
+  height: 60px;
+}
+
+.features__item--leaf {
+  width: 60px;
+  background-color: $green;
+
+  &::before {
+    content: "";
+    height: 32px;
+    width: 30px;
+    background-image: url("../../images/icons/works1.svg");
+    display: block;
+    background-repeat: no-repeat;
+  }
+}
+
+.features__item--water {
+  width: 60px;
+  background-color: $green;
+
+  &::before {
+    content: "";
+    height: 30px;
+    width: 24px;
+    background-image: url("../../images/icons/works2.svg");
+    display: block;
+    background-repeat: no-repeat;
+  }
+}
+
+.features__item--cutlery {
+  width: 60px;
+  background-color: $green;
+
+  &::before {
+    content: "";
+    height: 30px;
+    width: 25px;
+    background-image: url("../../images/icons/works3.svg");
+    display: block;
+    background-repeat: no-repeat;
+  }
+}
+
+.features__item--clock {
+  width: 60px;
+  background-color: $green;
+
+  &::before {
+    content: "";
+    height: 30px;
+    width: 24px;
+    background-image: url("../../images/icons/works4.svg");
+    display: block;
+    background-repeat: no-repeat;
+  }
 }
