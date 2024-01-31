@@ -28,16 +28,21 @@
   line-height: 16px;
   font-weight: 400;
   text-align: center;
+  align-items: center;
   position: relative;
-  /*Не видно*/
+  justify-content: flex-start;
+
   &::after {
-    content: '';
-    position: absolute;
-    mask-image: url("../../images/icons/stack.svg#icon_arrow");
-    mask-repeat: no-repeat;
+    content: "";
+    background-image: url("../../images/icons/icon_arrow.svg");
     width: 32px;
     height: 10px;
-    left: 50%;
+    display: block;
+    background-repeat: no-repeat;
+  }
+
+  &:active {
+    opacity: 30%;
   }
 }
 
@@ -51,7 +56,7 @@
   height: 53px;
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
